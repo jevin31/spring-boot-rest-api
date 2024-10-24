@@ -57,6 +57,7 @@ Once the application is running, you can interact with the API using a tool like
 
 ## API Endpoints
 Create a Product (POST):
+
 URL: `http://localhost:8080/api/v1/products`
 
 
@@ -70,12 +71,15 @@ Request Body (JSON):
 ```
 
 Get All Products (GET):
+
 URL: `http://localhost:8080/api/v1/products`
 
 Get a Product by ID (GET):
+
 URL: `http://localhost:8080/api/v1/products/{id}`
 
 Delete a Product (DELETE):
+
 URL: `http://localhost:8080/api/v1/products/{id}`
 
 ## License
