@@ -25,11 +25,13 @@ This project demonstrates how to create a simple REST API using Spring Boot, Pos
    git clone https://github.com/yourusername/springapi.git
    cd springapi
 2. **Create PostgreSQL Database**:
+
    Open your PostgreSQL client and create a new database.
    ```sql
    CREATE DATABASE springapidb;
 
 4. **Configure Application Properties**:
+
    Update the src/main/resources/application.properties file with your PostgreSQL database credentials.
    ```java
    spring.datasource.url=jdbc:postgresql://localhost:5432/springapidb
@@ -39,11 +41,13 @@ This project demonstrates how to create a simple REST API using Spring Boot, Pos
    spring.jpa.show-sql=true
 
 6. **Build the Project**:
+
    Make sure you have Maven installed. Run the following command in your project directory.
    ```bash
    mvn clean install
    
 8. **Run the Application**:
+
    You can run the application from your IDE (Eclipse) or use the command line.
    ```bash
    mvn spring-boot:run
