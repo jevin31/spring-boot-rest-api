@@ -40,10 +40,10 @@ This project demonstrates how to create a simple REST API using Spring Boot, Pos
 6. **Run the Application: You can run the application from your IDE (Eclipse) or use the command line**:
    mvn spring-boot:run
 
-##Usage
+## Usage
 Once the application is running, you can interact with the API using a tool like Postman or Curl.
 
-##API Endpoints
+## API Endpoints
 Create a Product (POST):
 URL: http://localhost:8080/api/v1/products
 Request Body (JSON):
