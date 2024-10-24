@@ -61,3 +61,11 @@ URL: http://localhost:8080/api/v1/products/{id}
 
 Delete a Product (DELETE):
 URL: http://localhost:8080/api/v1/products/{id}
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### Instructions for Use:
+1. Replace `yourusername` with your actual GitHub username in the clone URL.
+2. Customize any additional sections as needed (e.g., adding instructions for updating the project or contributing).
+3. Save this as `README.md` in the root directory of your project repository.
