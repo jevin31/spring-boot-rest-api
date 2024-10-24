@@ -25,12 +25,12 @@ This project demonstrates how to create a simple REST API using Spring Boot, Pos
    git clone https://github.com/yourusername/springapi.git
    cd springapi
 2. **Create PostgreSQL Database**:
-   Open your PostgreSQL client and create a new database
+   Open your PostgreSQL client and create a new database.
    ```sql
    CREATE DATABASE springapidb;
 
 4. **Configure Application Properties**:
-   Update the src/main/resources/application.properties file with your PostgreSQL database credentials
+   Update the src/main/resources/application.properties file with your PostgreSQL database credentials.
    ```java
    spring.datasource.url=jdbc:postgresql://localhost:5432/springapidb
    spring.datasource.username=your_postgresql_username
@@ -39,12 +39,12 @@ This project demonstrates how to create a simple REST API using Spring Boot, Pos
    spring.jpa.show-sql=true
 
 6. **Build the Project**:
-   Make sure you have Maven installed. Run the following command in your project directory
+   Make sure you have Maven installed. Run the following command in your project directory.
    ```bash
    mvn clean install
    
 8. **Run the Application**:
-   You can run the application from your IDE (Eclipse) or use the command line
+   You can run the application from your IDE (Eclipse) or use the command line.
    ```bash
    mvn spring-boot:run
 
@@ -53,7 +53,9 @@ Once the application is running, you can interact with the API using a tool like
 
 ## API Endpoints
 Create a Product (POST):
-URL: http://localhost:8080/api/v1/products
+URL: `http://localhost:8080/api/v1/products`
+
+
 Request Body (JSON):
 ```json
 {
@@ -64,18 +66,15 @@ Request Body (JSON):
 ```
 
 Get All Products (GET):
-URL: http://localhost:8080/api/v1/products
+URL: `http://localhost:8080/api/v1/products`
 
 Get a Product by ID (GET):
-URL: http://localhost:8080/api/v1/products/{id}
+URL: `http://localhost:8080/api/v1/products/{id}`
 
 Delete a Product (DELETE):
-URL: http://localhost:8080/api/v1/products/{id}
+URL: `http://localhost:8080/api/v1/products/{id}`
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Instructions for Use:
-1. Replace `yourusername` with your actual GitHub username in the clone URL.
-2. Customize any additional sections as needed (e.g., adding instructions for updating the project or contributing).
-3. Save this as `README.md` in the root directory of your project repository.
+
